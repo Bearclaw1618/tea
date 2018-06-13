@@ -20,6 +20,7 @@ header {
   padding: 10px 10px;
   width: 1300px;
   margin-right: 10px;
+  background-color: black;
 }
 header img {
   height: 50px;
@@ -30,7 +31,7 @@ header nav span{
   text-decoration: underline;
 }
 
-div, header, footer {border:1px solid red;}
+
 /* CONTENT */
 .content {
   padding-top: 70px;
@@ -56,13 +57,30 @@ div, header, footer {border:1px solid red;}
   background-image: url(../resources/images/mission-background.jpg);
 
 }
+.locationheader {
+  text-align: center;
+  height: 100px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
 
+
+
+}
 .featured {
   margin: 0 auto;
   width: 1000px;
   display:flex;
   justify-content: center;
   flex-direction: column;
+}
+.title {
+  text-align: center;
+}
+.teas p {
+  text-align: center;
 
 }
 .downtown, .east, .oakdale {
@@ -70,19 +88,21 @@ div, header, footer {border:1px solid red;}
   height: 300px;
   background-color: black;
   text-align: center;
-  padding: 10px 0px;
+  margin:15px 0px;
 
 }
-.teas img {
+.teas1 img, .teas2 img {
   height: 200px;
   width: 300px;
 }
-.teas {
+.teas1, .teas2 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
+  text-align: center;
 }
+
 .locations {
   flex-direction: column;
   background-image: url(../resources/images/locations-background.jpg);
@@ -95,9 +115,17 @@ div, header, footer {border:1px solid red;}
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
   align-content: center;
+  padding: 0 110px;
 
 }
 
 /* FOOTER */
+footer {
+  height: 200px;
+  text-align: center;
+
+}
+footer p {
+  text-align: left;
+}
