@@ -57,13 +57,17 @@ header nav span{
   background-image: url(../resources/images/mission-background.jpg);
 
 }
+.locations .locationheader h2 {
+  margin: 0 auto;
+}
 .locationheader {
   text-align: center;
-  height: 100px;
+  padding-top: 60px;
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
-  align-content: flex-end;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
 }
 
 
